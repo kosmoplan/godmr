@@ -34,8 +34,15 @@ func ReadJSON(response *http.Response) ([]radioid.Contact, error) {
 func main() {
 	URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/?country=Spain")
 
+	req, err := http.NewRequest(http.MethodGet, URL.String(), nil)
+	if err != nil {
+		panic("error creating request")
+	}
+	req.Header.Set("Accept-Encoding", "utf-8")
+	req.Header.Set("Content-Type", "application/json")
+
 	client := http.Client{}
-	resp, err := client.Get(URL.String())
+	resp, err := client.Do(req)
 	if err != nil {
 		panic(err)
 	}
@@ -43,6 +50,7 @@ func main() {
 
 	usersFile, err := os.Create("./users.csv")
 	csvWriter := csv.NewWriter(usersFile)
+	defer csvWriter.Flush()
 
 	switch resp.StatusCode {
 	case http.StatusOK:
@@ -50,7 +58,7 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("Downloaded %d users", len(users))
+		fmt.Printf("Downloaded %d users\n", len(users))
 
 		// write header
 		_ = csvWriter.Write([]string{"RADIO_ID", "CALLSIGN", "FIRST_NAME", "LAST_NAME", "CITY", "STATE", "COUNTRY", "REMARKS"})
@@ -66,7 +74,6 @@ func main() {
 			record = append(record, "DMR")
 			_ = csvWriter.Write(record)
 		}
-		csvWriter.Flush()
 	default:
 		panic(errors.New("call to radioid.net not worked"))
 	}
