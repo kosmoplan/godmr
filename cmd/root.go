@@ -13,12 +13,14 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 )
 
 var cfgFile string
+var verbose bool
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
@@ -75,7 +77,9 @@ filter by country or get the main, all-database dump`,
 			}
 			defer resp.Body.Close()
 
-			usersFile, err := os.Create("./user_es_20200113.csv")
+			now := time.Now()
+			fileName := "users" + now.Format("20060102150405") + ".csv"
+			usersFile, err := os.Create(fileName)
 			csvWriter := csv.NewWriter(usersFile)
 			defer csvWriter.Flush()
 
@@ -85,11 +89,11 @@ filter by country or get the main, all-database dump`,
 				if err != nil {
 					panic(err)
 				}
-				fmt.Printf("Downloaded %d users\n", len(users))
+
+				fmt.Printf("Downloaded %d users...\n", len(users))
+				fmt.Printf("Tidying up...\n")
 
 				var hits int
-
-				// write header
 				_ = csvWriter.Write([]string{"Radio ID", "Callsign", "Name", "City", "State", "Country", "Remarks", "Call Type", "Call Alert"})
 				for _, user := range users {
 					var record []string
@@ -108,7 +112,9 @@ filter by country or get the main, all-database dump`,
 						// 214 won't be -I guess- enough filter when things escalate
 						if strings.HasPrefix(strconv.FormatInt(user.RadioId, 10), "214") {
 							misses[key] = misses[key]+1
-							fmt.Printf("Callsign %s not found, was %s\n", user.Callsign, user.City)
+							if verbose {
+								fmt.Printf("Callsign %s not found, was %s\n", user.Callsign, user.City)
+							}
 						}
 					}
 					record = append(record, user.Country)
@@ -119,12 +125,16 @@ filter by country or get the main, all-database dump`,
 				}
 
 				// Get to fix top down so that we concentrate on the most common cases
-				fmt.Printf("Hits were: %d\n", hits)
-				for k, v := range misses {
-					if v > 10 {
-						fmt.Printf("%s -> %d\n", k, v)
+				if verbose {
+					fmt.Printf("Hits were: %d\n", hits)
+					for k, v := range misses {
+						if v > 10 {
+							fmt.Printf("%s -> %d\n", k, v)
+						}
 					}
 				}
+
+				fmt.Printf("Wrote file %s\nDone.\n", fileName)
 			default:
 				panic(errors.New("call to radioid.net did not work"))
 			}
@@ -142,16 +152,7 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
-
-	// Here you will define your flags and configuration settings.
-	// Cobra supports persistent flags, which, if defined here,
-	// will be global for your application.
-
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.godmr.yaml)")
-
-	// Cobra also supports local flags, which will only run
-	// when this action is called directly.
-	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.Flags().BoolVarP(&verbose, "verbose", "v", false, "Print debugging messages")
 }
 
 // initConfig reads in config file and ENV variables if set.
