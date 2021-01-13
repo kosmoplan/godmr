@@ -6,6 +6,7 @@ type Contact struct {
 	Name     string `json:"fname"`
 	Surname  string `json:"surname"`
 	City     string `json:"city"`
-	Province string `json:"state"`
+	State    string `json:"state"`
 	Country  string `json:"country"`
+	Remarks  string `json:"remarks"`
 }

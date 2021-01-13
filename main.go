@@ -1,21 +1,38 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/csv"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"godmr/radioid"
+	"io"
+	"io/ioutil"
 	"net/http"
 	"net/url"
 	"os"
 	"strconv"
+	"strings"
 )
 
 type Results struct {
 	Count   int               `json:"count"`
 	Results []radioid.Contact `json:"results"`
+}
+
+func DumpJSON(response *http.Response) error {
+	usersFile, err := os.Create("./users.json")
+	if err != nil {
+		return err
+	}
+	writer := bufio.NewWriter(usersFile)
+
+	teeReader := io.TeeReader(response.Body, writer)
+	_, err = ioutil.ReadAll(teeReader)
+
+	return err
 }
 
 func ReadJSON(response *http.Response) ([]radioid.Contact, error) {
@@ -32,7 +49,29 @@ func ReadJSON(response *http.Response) ([]radioid.Contact, error) {
 }
 
 func main() {
-	URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/?country=Spain")
+	//URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/" +
+	//	"?country=Spain" +
+	//	"&country=Peru" +
+	//	"&country=Ecuador" +
+	//	"&country=Colombia" +
+	//	"&country=Chile" +
+	//	"&country=Bolivia" +
+	//	"&country=Mexico" +
+	//	"&country=Guatemala" +
+	//	"&country=El%20Salvador" +
+	//	"&country=Nicaragua" +
+	//	"&country=Costa%20Rica" +
+	//	"&country=Panama" +
+	//	"&country=Honduras" +
+	//	"&country=Cuba" +
+	//	"&country=Dominican%20Republic" +
+	//	"&country=Venezuela" +
+	//	"&country=Paraguay" +
+	//	"&country=Uruguay" +
+	//	"&country=Argentina%20Republic")
+	//URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/?country=Spain")
+
+	URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/?country=%")
 
 	req, err := http.NewRequest(http.MethodGet, URL.String(), nil)
 	if err != nil {
@@ -48,7 +87,7 @@ func main() {
 	}
 	defer resp.Body.Close()
 
-	usersFile, err := os.Create("./users.csv")
+	usersFile, err := os.Create("./user_completa_20200113.csv")
 	csvWriter := csv.NewWriter(usersFile)
 	defer csvWriter.Flush()
 
@@ -61,17 +100,19 @@ func main() {
 		fmt.Printf("Downloaded %d users\n", len(users))
 
 		// write header
-		_ = csvWriter.Write([]string{"RADIO_ID", "CALLSIGN", "FIRST_NAME", "LAST_NAME", "CITY", "STATE", "COUNTRY", "REMARKS"})
+		_ = csvWriter.Write([]string{"Radio ID", "Callsign", "Name", "City", "State", "Country", "Remarks", "Call Type", "Call Alert"})
 		for _, user := range users {
 			var record []string
+			//record = append(record, strconv.FormatInt(int64(idx+1), 10))
 			record = append(record, strconv.FormatInt(user.RadioId, 10))
 			record = append(record, user.Callsign)
-			record = append(record, user.Name)
-			record = append(record, user.Surname)
-			record = append(record, user.City)
-			record = append(record, user.Province)
+			record = append(record, strings.Title(strings.ToLower(user.Name)))
+			record = append(record, strings.Title(strings.ToLower(user.City)))
+			record = append(record, user.State)
 			record = append(record, user.Country)
-			record = append(record, "DMR")
+			record = append(record, user.Remarks)
+			record = append(record, "0")
+			record = append(record, "0")
 			_ = csvWriter.Write(record)
 		}
 	default:
