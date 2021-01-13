@@ -1,18 +1,5 @@
 package esgob
 
-//type Municipality struct {
-//	Cpro   int
-//	Pro    string
-//	CMun   string
-//	Dc     int
-//	Nombre string
-//}
-
-//type Dictionary struct {
-//	Municipality string
-//	Name string
-//}
-
 // Downloaded from ine.es
 var Data = []byte (`
 CPRO,PRO,CMUN,DC,NOMBRE
