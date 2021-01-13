@@ -78,7 +78,7 @@ filter by country or get the main, all-database dump`,
 			defer resp.Body.Close()
 
 			now := time.Now()
-			fileName := "users" + now.Format("20060102150405") + ".csv"
+			fileName := "users_" + now.Format("20060102150405") + ".csv"
 			usersFile, err := os.Create(fileName)
 			csvWriter := csv.NewWriter(usersFile)
 			defer csvWriter.Flush()
