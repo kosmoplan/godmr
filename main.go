@@ -103,7 +103,6 @@ func main() {
 		_ = csvWriter.Write([]string{"Radio ID", "Callsign", "Name", "City", "State", "Country", "Remarks", "Call Type", "Call Alert"})
 		for _, user := range users {
 			var record []string
-			//record = append(record, strconv.FormatInt(int64(idx+1), 10))
 			record = append(record, strconv.FormatInt(user.RadioId, 10))
 			record = append(record, user.Callsign)
 			record = append(record, strings.Title(strings.ToLower(user.Name)))
