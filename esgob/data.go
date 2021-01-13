@@ -14,8 +14,7 @@ package esgob
 //}
 
 // Downloaded from ine.es
-func GetData() []byte {
-	return []byte(`
+var Data = []byte (`
 CPRO,PRO,CMUN,DC,NOMBRE
 01,Álava,001,4,Alegría-Dulantzi
 01,Álava,002,9,Amurrio
@@ -8151,4 +8150,3 @@ CPRO,PRO,CMUN,DC,NOMBRE
 51,Ceuta,001,3,Ceuta
 52,Melilla,001,8,Melilla`,
 	)
-}

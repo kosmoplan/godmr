@@ -34,15 +34,13 @@ func ReadJSON(response *http.Response) ([]radioid.Contact, error) {
 }
 
 func main() {
-	reader := bytes.NewReader(esgob.GetData())
+	reader := bytes.NewReader(esgob.Data)
 	lines, err := csv.NewReader(reader).ReadAll()
 	if err != nil {
 		panic(err)
 	}
 
 	var dictionary = make(map[string]string)
-
-	// Loop through lines & turn into object
 	for _, line := range lines {
 		dictionary[strings.ToLower(line[4])] = line[1]
 	}
@@ -68,8 +66,6 @@ func main() {
 	//	"&country=Uruguay" +
 	//	"&country=Argentina%20Republic")
 	URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/?country=Spain")
-
-	//URL, _ := url.Parse("https://database.radioid.net/api/dmr/user/?country=%")
 
 	req, err := http.NewRequest(http.MethodGet, URL.String(), nil)
 	if err != nil {
@@ -110,7 +106,6 @@ func main() {
 
 			if province, ok := dictionary[strings.Trim(strings.ToLower(user.City), " ")]; ok {
 				hits = hits + 1
-				//fmt.Printf("Got %s, inserted %s\n", user.City, province)
 				record = append(record, province)
 			} else {
 				record = append(record, user.State)
