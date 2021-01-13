@@ -109,6 +109,8 @@ func main() {
 				record = append(record, province)
 			} else {
 				record = append(record, user.State)
+				// data is just from spain, so don't print anything from other countries. Also
+				// 214 won't be -I guess- enough filter when things escalate
 				if strings.HasPrefix(strconv.FormatInt(user.RadioId, 10), "214") {
 					fmt.Printf("Callsign %s not found, was %s\n", user.Callsign, user.City)
 				}
