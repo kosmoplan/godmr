@@ -1,4 +1,4 @@
-package esgob
+package ine
 
 // Downloaded from ine.es and tweaked to include
 // common mispellings I'm seeing all over the place. I

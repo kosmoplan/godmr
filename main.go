@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"godmr/esgob"
+	"godmr/ine"
 	"godmr/radioid"
 	"net/http"
 	"net/url"
@@ -34,7 +34,7 @@ func ReadJSON(response *http.Response) ([]radioid.Contact, error) {
 }
 
 func main() {
-	reader := bytes.NewReader(esgob.Data)
+	reader := bytes.NewReader(ine.Data)
 	lines, err := csv.NewReader(reader).ReadAll()
 	if err != nil {
 		panic(err)
