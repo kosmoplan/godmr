@@ -1,15 +1,12 @@
 package main
 
 import (
-	"bufio"
 	"bytes"
 	"encoding/csv"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"godmr/radioid"
-	"io"
-	"io/ioutil"
 	"net/http"
 	"net/url"
 	"os"
@@ -20,19 +17,6 @@ import (
 type Results struct {
 	Count   int               `json:"count"`
 	Results []radioid.Contact `json:"results"`
-}
-
-func DumpJSON(response *http.Response) error {
-	usersFile, err := os.Create("./users.json")
-	if err != nil {
-		return err
-	}
-	writer := bufio.NewWriter(usersFile)
-
-	teeReader := io.TeeReader(response.Body, writer)
-	_, err = ioutil.ReadAll(teeReader)
-
-	return err
 }
 
 func ReadJSON(response *http.Response) ([]radioid.Contact, error) {
