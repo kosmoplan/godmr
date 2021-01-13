@@ -40,6 +40,7 @@ func main() {
 		panic(err)
 	}
 
+	var misses = make(map[string]int)
 	var dictionary = make(map[string]string)
 	for _, line := range lines {
 		dictionary[strings.ToLower(line[4])] = line[1]
@@ -104,7 +105,8 @@ func main() {
 			record = append(record, strings.Title(strings.ToLower(user.Name)))
 			record = append(record, strings.Title(strings.ToLower(user.City)))
 
-			if province, ok := dictionary[strings.Trim(strings.ToLower(user.City), " ")]; ok {
+			key := strings.Trim(strings.ToLower(user.City), " ")
+			if province, ok := dictionary[key]; ok {
 				hits = hits + 1
 				record = append(record, province)
 			} else {
@@ -112,6 +114,7 @@ func main() {
 				// data is just from spain, so don't print anything from other countries. Also
 				// 214 won't be -I guess- enough filter when things escalate
 				if strings.HasPrefix(strconv.FormatInt(user.RadioId, 10), "214") {
+					misses[key] = misses[key]+1
 					fmt.Printf("Callsign %s not found, was %s\n", user.Callsign, user.City)
 				}
 			}
@@ -122,8 +125,14 @@ func main() {
 			_ = csvWriter.Write(record)
 		}
 
-		fmt.Printf("Hits was: %d\n", hits)
+		// Get to fix top down so that we concentrate on the most common cases
+		fmt.Printf("Hits were: %d\n", hits)
+		for k, v := range misses {
+			if v > 10 {
+				fmt.Printf("%s -> %d\n", k, v)
+			}
+		}
 	default:
-		panic(errors.New("call to radioid.net not worked"))
+		panic(errors.New("call to radioid.net did not work"))
 	}
 }

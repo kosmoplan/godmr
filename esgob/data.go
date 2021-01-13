@@ -6,6 +6,7 @@ package esgob
 // now I'm happy to keep going like this.
 var Data = []byte (`
 CPRO,PRO,CMUN,DC,NOMBRE
+01,Álava,001,4,Vitoria
 01,Álava,001,4,Alegría-Dulantzi
 01,Álava,002,9,Amurrio
 01,Álava,049,3,Añana
@@ -144,6 +145,9 @@ CPRO,PRO,CMUN,DC,NOMBRE
 02,Albacete,084,8,Villaverde de Guadalimar
 02,Albacete,085,1,Viveros
 02,Albacete,086,4,Yeste
+03,Alicante,000,0,Alcoy
+03,Alicante,000,0,Denia
+03,Alicante,000,0,Elche
 03,Alicante,000,0,Alicante
 03,Alicante,001,5,Adsubia
 03,Alicante,002,0,Agost
@@ -286,6 +290,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 03,Alicante,139,5,"Villajoyosa/Vila Joiosa, la"
 03,Alicante,140,9,Villena
 03,Alicante,081,8,Xaló
+04,Almería,000,0,Almeria
 04,Almería,001,0,Abla
 04,Almería,002,5,Abrucena
 04,Almería,003,1,Adra
@@ -388,6 +393,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 04,Almería,101,9,Viator
 04,Almería,102,4,Vícar
 04,Almería,103,0,Zurgena
+05,Ávila,000,0,Avila
 05,Ávila,001,3,Adanero
 05,Ávila,002,8,"Adrada, La"
 05,Ávila,005,2,Albornos
@@ -800,6 +806,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 06,Badajoz,160,5,Zalamea de la Serena
 06,Badajoz,162,7,"Zarza, La"
 06,Badajoz,161,2,Zarza-Capilla
+07,Islas Baleares,002,7,Palma de Mallorca
 07,Islas Baleares,002,7,Alaior
 07,Islas Baleares,001,2,Alaró
 07,Islas Baleares,003,3,Alcúdia
@@ -867,6 +874,9 @@ CPRO,PRO,CMUN,DC,NOMBRE
 07,Islas Baleares,062,4,Son Servera
 07,Islas Baleares,063,0,Valldemossa
 07,Islas Baleares,065,8,Vilafranca de Bonany
+08,Barcelona,000,0,Castellar del Valles
+08,Barcelona,000,0,Hospitalet de Llobregat
+08,Barcelona,001,8,Mataro
 08,Barcelona,001,8,Abrera
 08,Barcelona,002,3,Aguilar de Segarra
 08,Barcelona,014,2,Aiguafreda
@@ -1549,6 +1559,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 09,Burgos,482,5,Zarzosa de Río Pisuerga
 09,Burgos,483,1,Zazuar
 09,Burgos,485,9,Zuñeda
+10,Cáceres,000,0,Caceres
 10,Cáceres,001,5,Abadía
 10,Cáceres,002,0,Abertura
 10,Cáceres,003,6,Acebo
@@ -1770,6 +1781,8 @@ CPRO,PRO,CMUN,DC,NOMBRE
 10,Cáceres,217,9,Zarza de Montánchez
 10,Cáceres,218,5,Zarza la Mayor
 10,Cáceres,219,8,Zorita
+11,Cádiz,000,0,Sanlucar de Barrameda
+11,Cádiz,000,0,Cadiz
 11,Cádiz,001,2,Alcalá de los Gazules
 11,Cádiz,002,7,Alcalá del Valle
 11,Cádiz,003,3,Algar
@@ -1814,6 +1827,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 11,Cádiz,040,7,Villaluenga del Rosario
 11,Cádiz,041,4,Villamartín
 11,Cádiz,042,9,Zahara
+12,Castellón,000,0,Castellon
 12,Castellón,002,2,Aín
 12,Castellón,003,8,Albocàsser
 12,Castellón,004,3,Alcalà de Xivert
@@ -2051,6 +2065,8 @@ CPRO,PRO,CMUN,DC,NOMBRE
 13,Ciudad Real,096,6,Villarrubia de los Ojos
 13,Ciudad Real,097,2,Villarta de San Juan
 13,Ciudad Real,098,8,Viso del Marqués
+14,Córdoba,001,8,Cordoba
+14,Córdoba,001,8,Crdoba
 14,Córdoba,001,8,Adamuz
 14,Córdoba,002,3,Aguilar de la Frontera
 14,Córdoba,003,9,Alcaracejos
@@ -2127,6 +2143,8 @@ CPRO,PRO,CMUN,DC,NOMBRE
 14,Córdoba,074,9,"Viso, El"
 14,Córdoba,075,2,Zuheros
 15,A Coruña,000,0,A Coruna
+15,A Coruña,000,0,A Corua
+15,A Coruña,000,0,La Corua
 15,A Coruña,001,1,Abegondo
 15,A Coruña,002,6,Ames
 15,A Coruña,003,2,Aranga
@@ -3136,6 +3154,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 19,Guadalajara,333,1,Zaorejas
 19,Guadalajara,334,6,Zarzuela de Jadraque
 19,Guadalajara,335,9,Zorita de los Canes
+20,Gipuzkoa,000,0,San Sebastian
 20,Gipuzkoa,001,3,Abaltzisketa
 20,Gipuzkoa,002,8,Aduna
 20,Gipuzkoa,016,3,Aia
@@ -3505,6 +3524,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 22,Huesca,252,7,Yebra de Basa
 22,Huesca,253,3,Yésero
 22,Huesca,254,8,Zaidín
+23,Jaén,000,0,Jaen
 23,Jaén,001,1,Albanchez de Mágina
 23,Jaén,002,6,Alcalá la Real
 23,Jaén,003,2,Alcaudete
@@ -3602,6 +3622,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 23,Jaén,099,9,"Villares, Los"
 23,Jaén,101,0,Villarrodrigo
 23,Jaén,903,3,Villatorres
+24,León,000,0,Leon
 24,León,001,6,Acebedo
 24,León,002,1,Algadefe
 24,León,003,7,Alija del Infantado
@@ -4044,6 +4065,8 @@ CPRO,PRO,CMUN,DC,NOMBRE
 25,Lleida,252,1,Vila-sana
 25,Lleida,253,7,"Vilosell, El"
 25,Lleida,255,5,Vinaixa
+26,La Rioja,000,0,Logrono
+26,La Rioja,000,0,Logroo
 26,La Rioja,001,2,Ábalos
 26,La Rioja,002,7,Agoncillo
 26,La Rioja,003,3,Aguilar del Río Alhama
@@ -4285,6 +4308,11 @@ CPRO,PRO,CMUN,DC,NOMBRE
 27,Lugo,066,7,Viveiro
 27,Lugo,021,4,Xermade
 27,Lugo,025,3,Xove
+28,Madrid,000,0,Mostoles
+28,Madrid,000,0,Alcala de Henares
+28,Madrid,000,0,Torrejon de Ardoz
+28,Madrid,000,0,Alcorcon
+28,Madrid,000,0,Leganes
 28,Madrid,001,4,"Acebeda, La"
 28,Madrid,002,9,Ajalvir
 28,Madrid,003,5,Alameda del Valle
@@ -4611,6 +4639,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 30,Murcia,041,3,"Unión, La"
 30,Murcia,042,8,Villanueva del Río Segura
 30,Murcia,043,4,Yecla
+31,Navarre,000,0,Pamplona
 31,Navarre,001,8,Abáigar
 31,Navarre,002,3,Abárzuza
 31,Navarre,003,9,Abaurregaina/Abaurrea Alta
@@ -4976,6 +5005,7 @@ CPRO,PRO,CMUN,DC,NOMBRE
 32,Ourense,036,9,Xunqueira de Ambía
 32,Ourense,037,5,Xunqueira de Espadanedo
 33,Asturias,000,0,Gijon
+33,Asturias,000,0,Aviles
 33,Asturias,000,0,Gijn
 33,Asturias,001,9,Allande
 33,Asturias,002,4,Aller
