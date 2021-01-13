@@ -1,6 +1,9 @@
 package esgob
 
-// Downloaded from ine.es
+// Downloaded from ine.es and tweaked to include
+// common mispellings I'm seeing all over the place. I
+// plan to get something more clever in place but for
+// now I'm happy to keep going like this.
 var Data = []byte (`
 CPRO,PRO,CMUN,DC,NOMBRE
 01,Álava,001,4,Alegría-Dulantzi
