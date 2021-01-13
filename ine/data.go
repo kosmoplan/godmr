@@ -4639,279 +4639,279 @@ CPRO,PRO,CMUN,DC,NOMBRE
 30,Murcia,041,3,"Unión, La"
 30,Murcia,042,8,Villanueva del Río Segura
 30,Murcia,043,4,Yecla
-31,Navarre,000,0,Pamplona
-31,Navarre,001,8,Abáigar
-31,Navarre,002,3,Abárzuza
-31,Navarre,003,9,Abaurregaina/Abaurrea Alta
-31,Navarre,004,4,Abaurrepea/Abaurrea Baja
-31,Navarre,005,7,Aberin
-31,Navarre,006,0,Ablitas
-31,Navarre,007,6,Adiós
-31,Navarre,008,2,Aguilar de Codés
-31,Navarre,009,5,Aibar/Oibar
-31,Navarre,011,6,Allín
-31,Navarre,012,1,Allo
-31,Navarre,010,9,Altsasu/Alsasua
-31,Navarre,013,7,Améscoa Baja
-31,Navarre,014,2,Ancín/Antzin
-31,Navarre,015,5,Andosilla
-31,Navarre,016,8,Ansoáin/Antsoain
-31,Navarre,017,4,Anue
-31,Navarre,018,0,Añorbe
-31,Navarre,019,3,Aoiz/Agoitz
-31,Navarre,020,7,Araitz
-31,Navarre,025,3,Arakil
-31,Navarre,021,4,Aranarache/Aranaratxe
-31,Navarre,023,5,Aranguren
-31,Navarre,024,0,Arano
-31,Navarre,022,9,Arantza
-31,Navarre,026,6,Aras
-31,Navarre,027,2,Arbizu
-31,Navarre,028,8,Arce/Artzi
-31,Navarre,029,1,"Arcos, Los"
-31,Navarre,030,5,Arellano
-31,Navarre,031,2,Areso
-31,Navarre,032,7,Arguedas
-31,Navarre,033,3,Aria
-31,Navarre,034,8,Aribe
-31,Navarre,035,1,Armañanzas
-31,Navarre,036,4,Arróniz
-31,Navarre,037,0,Arruazu
-31,Navarre,038,6,Artajona
-31,Navarre,039,9,Artazu
-31,Navarre,040,3,Atez
-31,Navarre,058,1,Auritz/Burguete
-31,Navarre,041,0,Ayegui/Aiegi
-31,Navarre,042,5,Azagra
-31,Navarre,043,1,Azuelo
-31,Navarre,044,6,Bakaiku
-31,Navarre,901,9,Barañain
-31,Navarre,045,9,Barásoain
-31,Navarre,046,2,Barbarin
-31,Navarre,047,8,Bargota
-31,Navarre,048,4,Barillas
-31,Navarre,049,7,Basaburua
-31,Navarre,050,0,Baztan
-31,Navarre,137,9,Beintza-Labaien
-31,Navarre,051,7,Beire
-31,Navarre,052,2,Belascoáin
-31,Navarre,250,8,Bera
-31,Navarre,053,8,Berbinzana
-31,Navarre,905,8,Beriáin
-31,Navarre,902,4,Berrioplano
-31,Navarre,903,0,Berriozar
-31,Navarre,054,3,Bertizarana
-31,Navarre,055,6,Betelu
-31,Navarre,253,6,Bidaurreta
-31,Navarre,056,9,Biurrun-Olcoz
-31,Navarre,057,5,Buñuel
-31,Navarre,059,4,Burgui/Burgi
-31,Navarre,060,8,Burlada/Burlata
-31,Navarre,061,5,"Busto, El"
-31,Navarre,062,0,Cabanillas
-31,Navarre,063,6,Cabredo
-31,Navarre,064,1,Cadreita
-31,Navarre,065,4,Caparroso
-31,Navarre,066,7,Cárcar
-31,Navarre,067,3,Carcastillo
-31,Navarre,068,9,Cascante
-31,Navarre,069,2,Cáseda
-31,Navarre,070,6,Castejón
-31,Navarre,071,3,Castillonuevo
-31,Navarre,193,9,Cendea de Olza/Oltza Zendea
-31,Navarre,072,8,Cintruénigo
-31,Navarre,074,9,Cirauqui/Zirauki
-31,Navarre,075,2,Ciriza
-31,Navarre,076,5,Cizur
-31,Navarre,077,1,Corella
-31,Navarre,078,7,Cortes
-31,Navarre,079,0,Desojo
-31,Navarre,080,4,Dicastillo
-31,Navarre,081,1,Donamaria
-31,Navarre,221,2,Doneztebe/Santesteban
-31,Navarre,083,2,Echarri
-31,Navarre,086,3,Egüés
-31,Navarre,087,9,Elgorriaga
-31,Navarre,089,8,Enériz/Eneritz
-31,Navarre,090,2,Eratsun
-31,Navarre,091,9,Ergoiena
-31,Navarre,092,4,Erro
-31,Navarre,094,5,Eslava
-31,Navarre,095,8,Esparza de Salazar/Espartza Zaraitzu
-31,Navarre,096,1,Espronceda
-31,Navarre,097,7,Estella/Lizarra
-31,Navarre,098,3,Esteribar
-31,Navarre,099,6,Etayo
-31,Navarre,082,6,Etxalar
-31,Navarre,084,7,Etxarri-Aranatz
-31,Navarre,085,0,Etxauri
-31,Navarre,100,0,Eulate
-31,Navarre,101,7,Ezcabarte
-31,Navarre,093,0,Ezcároz/Ezkaroze
-31,Navarre,102,2,Ezkurra
-31,Navarre,103,8,Ezprogui
-31,Navarre,104,3,Falces
-31,Navarre,105,6,Fitero
-31,Navarre,106,9,Fontellas
-31,Navarre,107,5,Funes
-31,Navarre,108,1,Fustiñana
-31,Navarre,109,4,Galar
-31,Navarre,110,8,Gallipienzo/Galipentzu
-31,Navarre,111,5,Gallués/Galoze
-31,Navarre,112,0,Garaioa
-31,Navarre,113,6,Garde
-31,Navarre,114,1,Garínoain
-31,Navarre,115,4,Garralda
-31,Navarre,116,7,Genevilla
-31,Navarre,117,3,Goizueta
-31,Navarre,118,9,Goñi
-31,Navarre,119,2,Güesa/Gorza
-31,Navarre,120,6,Guesálaz/Gesalatz
-31,Navarre,121,3,Guirguillano
-31,Navarre,256,7,Hiriberri/Villanueva de Aezkoa
-31,Navarre,122,8,Huarte/Uharte
-31,Navarre,124,9,Ibargoiti
-31,Navarre,259,2,Igantzi
-31,Navarre,125,2,Igúzquiza
-31,Navarre,126,5,Imotz
-31,Navarre,127,1,Irañeta
-31,Navarre,904,5,Irurtzun
-31,Navarre,128,7,Isaba/Izaba
-31,Navarre,129,0,Ituren
-31,Navarre,130,4,Iturmendi
-31,Navarre,131,1,Iza/Itza
-31,Navarre,132,6,Izagaondoa
-31,Navarre,133,2,Izalzu/Itzaltzu
-31,Navarre,134,7,Jaurrieta
-31,Navarre,135,0,Javier
-31,Navarre,136,3,Juslapeña
-31,Navarre,138,5,Lakuntza
-31,Navarre,139,8,Lana
-31,Navarre,140,2,Lantz
-31,Navarre,141,9,Lapoblación
-31,Navarre,142,4,Larraga
-31,Navarre,143,0,Larraona
-31,Navarre,144,5,Larraun
-31,Navarre,145,8,Lazagurría
-31,Navarre,146,1,Leache
-31,Navarre,147,7,Legarda
-31,Navarre,148,3,Legaria
-31,Navarre,149,6,Leitza
-31,Navarre,908,3,Lekunberri
-31,Navarre,150,9,Leoz/Leotz
-31,Navarre,151,6,Lerga
-31,Navarre,152,1,Lerín
-31,Navarre,153,7,Lesaka
-31,Navarre,154,2,Lezáun
-31,Navarre,155,5,Liédena
-31,Navarre,156,8,Lizoáin-Arriasgoiti
-31,Navarre,157,4,Lodosa
-31,Navarre,158,0,Lónguida/Longida
-31,Navarre,159,3,Lumbier
-31,Navarre,160,7,Luquin
-31,Navarre,248,2,Luzaide/Valcarlos
-31,Navarre,161,4,Mañeru
-31,Navarre,162,9,Marañón
-31,Navarre,163,5,Marcilla
-31,Navarre,164,0,Mélida
-31,Navarre,165,3,Mendavia
-31,Navarre,166,6,Mendaza
-31,Navarre,167,2,Mendigorría
-31,Navarre,168,8,Metauten
-31,Navarre,169,1,Milagro
-31,Navarre,170,5,Mirafuentes
-31,Navarre,171,2,Miranda de Arga
-31,Navarre,172,7,Monreal
-31,Navarre,173,3,Monteagudo
-31,Navarre,174,8,Morentin
-31,Navarre,175,1,Mues
-31,Navarre,176,4,Murchante
-31,Navarre,177,0,Murieta
-31,Navarre,178,6,Murillo el Cuende
-31,Navarre,179,9,Murillo el Fruto
-31,Navarre,180,3,Muruzábal
-31,Navarre,181,0,Navascués
-31,Navarre,182,5,Nazar
-31,Navarre,088,5,Noáin (Valle de Elorz)/Noain (Elortzibar)
-31,Navarre,183,1,Obanos
-31,Navarre,185,9,Ochagavía/Otsagabia
-31,Navarre,184,6,Oco
-31,Navarre,186,2,Odieta
-31,Navarre,187,8,Oitz
-31,Navarre,188,4,Olaibar
-31,Navarre,189,7,Olazti/Olazagutía
-31,Navarre,190,1,Olejua
-31,Navarre,191,8,Olite/Erriberri
-31,Navarre,194,4,Ollo
-31,Navarre,192,3,Olóriz/Oloritz
-31,Navarre,195,7,Orbaitzeta
-31,Navarre,196,0,Orbara
-31,Navarre,197,6,Orísoain
-31,Navarre,906,1,Orkoien
-31,Navarre,198,2,Oronz/Orontze
-31,Navarre,199,5,Oroz-Betelu/Orotz-Betelu
-31,Navarre,211,4,Orreaga/Roncesvalles
-31,Navarre,200,9,Oteiza
-31,Navarre,201,6,Pamplona/Iruña
-31,Navarre,202,1,Peralta/Azkoien
-31,Navarre,203,7,Petilla de Aragón
-31,Navarre,204,2,Piedramillera
-31,Navarre,205,5,Pitillas
-31,Navarre,206,8,Puente la Reina/Gares
-31,Navarre,207,4,Pueyo
-31,Navarre,208,0,Ribaforada
-31,Navarre,209,3,Romanzado
-31,Navarre,210,7,Roncal/Erronkari
-31,Navarre,212,9,Sada
-31,Navarre,213,5,Saldías
-31,Navarre,214,0,Salinas de Oro/Jaitz
-31,Navarre,215,3,San Adrián
-31,Navarre,217,2,San Martín de Unx
-31,Navarre,216,6,Sangüesa/Zangoza
-31,Navarre,219,1,Sansol
-31,Navarre,220,5,Santacara
-31,Navarre,222,7,Sarriés/Sartze
-31,Navarre,223,3,Sartaguda
-31,Navarre,224,8,Sesma
-31,Navarre,225,1,Sorlada
-31,Navarre,226,4,Sunbilla
-31,Navarre,227,0,Tafalla
-31,Navarre,228,6,Tiebas-Muruarte de Reta
-31,Navarre,229,9,Tirapu
-31,Navarre,230,3,Torralba del Río
-31,Navarre,231,0,Torres del Río
-31,Navarre,232,5,Tudela
-31,Navarre,233,1,Tulebras
-31,Navarre,234,6,Ucar
-31,Navarre,123,4,Uharte-Arakil
-31,Navarre,235,9,Ujué
-31,Navarre,236,2,Ultzama
-31,Navarre,237,8,Unciti
-31,Navarre,238,4,Unzué
-31,Navarre,239,7,Urdazubi/Urdax
-31,Navarre,240,1,Urdiain
-31,Navarre,241,8,Urraul Alto
-31,Navarre,242,3,Urraul Bajo
-31,Navarre,244,4,Urrotz
-31,Navarre,243,9,Urroz-Villa
-31,Navarre,245,7,Urzainqui/Urzainki
-31,Navarre,246,0,Uterga
-31,Navarre,247,6,Uztárroz/Uztarroze
-31,Navarre,260,6,Valle de Yerri/Deierri
-31,Navarre,249,5,Valtierra
-31,Navarre,251,5,Viana
-31,Navarre,252,0,Vidángoz/Bidankoze
-31,Navarre,254,1,Villafranca
-31,Navarre,255,4,Villamayor de Monjardín
-31,Navarre,257,3,Villatuerta
-31,Navarre,258,9,Villava/Atarrabia
-31,Navarre,261,3,Yesa
-31,Navarre,262,8,Zabalza/Zabaltza
-31,Navarre,073,4,Ziordia
-31,Navarre,907,7,Zizur Mayor/Zizur Nagusia
-31,Navarre,263,4,Zubieta
-31,Navarre,264,9,Zugarramurdi
-31,Navarre,265,2,Zúñiga
+31,Navarra,000,0,Pamplona
+31,Navarra,001,8,Abáigar
+31,Navarra,002,3,Abárzuza
+31,Navarra,003,9,Abaurregaina/Abaurrea Alta
+31,Navarra,004,4,Abaurrepea/Abaurrea Baja
+31,Navarra,005,7,Aberin
+31,Navarra,006,0,Ablitas
+31,Navarra,007,6,Adiós
+31,Navarra,008,2,Aguilar de Codés
+31,Navarra,009,5,Aibar/Oibar
+31,Navarra,011,6,Allín
+31,Navarra,012,1,Allo
+31,Navarra,010,9,Altsasu/Alsasua
+31,Navarra,013,7,Améscoa Baja
+31,Navarra,014,2,Ancín/Antzin
+31,Navarra,015,5,Andosilla
+31,Navarra,016,8,Ansoáin/Antsoain
+31,Navarra,017,4,Anue
+31,Navarra,018,0,Añorbe
+31,Navarra,019,3,Aoiz/Agoitz
+31,Navarra,020,7,Araitz
+31,Navarra,025,3,Arakil
+31,Navarra,021,4,Aranarache/Aranaratxe
+31,Navarra,023,5,Aranguren
+31,Navarra,024,0,Arano
+31,Navarra,022,9,Arantza
+31,Navarra,026,6,Aras
+31,Navarra,027,2,Arbizu
+31,Navarra,028,8,Arce/Artzi
+31,Navarra,029,1,"Arcos, Los"
+31,Navarra,030,5,Arellano
+31,Navarra,031,2,Areso
+31,Navarra,032,7,Arguedas
+31,Navarra,033,3,Aria
+31,Navarra,034,8,Aribe
+31,Navarra,035,1,Armañanzas
+31,Navarra,036,4,Arróniz
+31,Navarra,037,0,Arruazu
+31,Navarra,038,6,Artajona
+31,Navarra,039,9,Artazu
+31,Navarra,040,3,Atez
+31,Navarra,058,1,Auritz/Burguete
+31,Navarra,041,0,Ayegui/Aiegi
+31,Navarra,042,5,Azagra
+31,Navarra,043,1,Azuelo
+31,Navarra,044,6,Bakaiku
+31,Navarra,901,9,Barañain
+31,Navarra,045,9,Barásoain
+31,Navarra,046,2,Barbarin
+31,Navarra,047,8,Bargota
+31,Navarra,048,4,Barillas
+31,Navarra,049,7,Basaburua
+31,Navarra,050,0,Baztan
+31,Navarra,137,9,Beintza-Labaien
+31,Navarra,051,7,Beire
+31,Navarra,052,2,Belascoáin
+31,Navarra,250,8,Bera
+31,Navarra,053,8,Berbinzana
+31,Navarra,905,8,Beriáin
+31,Navarra,902,4,Berrioplano
+31,Navarra,903,0,Berriozar
+31,Navarra,054,3,Bertizarana
+31,Navarra,055,6,Betelu
+31,Navarra,253,6,Bidaurreta
+31,Navarra,056,9,Biurrun-Olcoz
+31,Navarra,057,5,Buñuel
+31,Navarra,059,4,Burgui/Burgi
+31,Navarra,060,8,Burlada/Burlata
+31,Navarra,061,5,"Busto, El"
+31,Navarra,062,0,Cabanillas
+31,Navarra,063,6,Cabredo
+31,Navarra,064,1,Cadreita
+31,Navarra,065,4,Caparroso
+31,Navarra,066,7,Cárcar
+31,Navarra,067,3,Carcastillo
+31,Navarra,068,9,Cascante
+31,Navarra,069,2,Cáseda
+31,Navarra,070,6,Castejón
+31,Navarra,071,3,Castillonuevo
+31,Navarra,193,9,Cendea de Olza/Oltza Zendea
+31,Navarra,072,8,Cintruénigo
+31,Navarra,074,9,Cirauqui/Zirauki
+31,Navarra,075,2,Ciriza
+31,Navarra,076,5,Cizur
+31,Navarra,077,1,Corella
+31,Navarra,078,7,Cortes
+31,Navarra,079,0,Desojo
+31,Navarra,080,4,Dicastillo
+31,Navarra,081,1,Donamaria
+31,Navarra,221,2,Doneztebe/Santesteban
+31,Navarra,083,2,Echarri
+31,Navarra,086,3,Egüés
+31,Navarra,087,9,Elgorriaga
+31,Navarra,089,8,Enériz/Eneritz
+31,Navarra,090,2,Eratsun
+31,Navarra,091,9,Ergoiena
+31,Navarra,092,4,Erro
+31,Navarra,094,5,Eslava
+31,Navarra,095,8,Esparza de Salazar/Espartza Zaraitzu
+31,Navarra,096,1,Espronceda
+31,Navarra,097,7,Estella/Lizarra
+31,Navarra,098,3,Esteribar
+31,Navarra,099,6,Etayo
+31,Navarra,082,6,Etxalar
+31,Navarra,084,7,Etxarri-Aranatz
+31,Navarra,085,0,Etxauri
+31,Navarra,100,0,Eulate
+31,Navarra,101,7,Ezcabarte
+31,Navarra,093,0,Ezcároz/Ezkaroze
+31,Navarra,102,2,Ezkurra
+31,Navarra,103,8,Ezprogui
+31,Navarra,104,3,Falces
+31,Navarra,105,6,Fitero
+31,Navarra,106,9,Fontellas
+31,Navarra,107,5,Funes
+31,Navarra,108,1,Fustiñana
+31,Navarra,109,4,Galar
+31,Navarra,110,8,Gallipienzo/Galipentzu
+31,Navarra,111,5,Gallués/Galoze
+31,Navarra,112,0,Garaioa
+31,Navarra,113,6,Garde
+31,Navarra,114,1,Garínoain
+31,Navarra,115,4,Garralda
+31,Navarra,116,7,Genevilla
+31,Navarra,117,3,Goizueta
+31,Navarra,118,9,Goñi
+31,Navarra,119,2,Güesa/Gorza
+31,Navarra,120,6,Guesálaz/Gesalatz
+31,Navarra,121,3,Guirguillano
+31,Navarra,256,7,Hiriberri/Villanueva de Aezkoa
+31,Navarra,122,8,Huarte/Uharte
+31,Navarra,124,9,Ibargoiti
+31,Navarra,259,2,Igantzi
+31,Navarra,125,2,Igúzquiza
+31,Navarra,126,5,Imotz
+31,Navarra,127,1,Irañeta
+31,Navarra,904,5,Irurtzun
+31,Navarra,128,7,Isaba/Izaba
+31,Navarra,129,0,Ituren
+31,Navarra,130,4,Iturmendi
+31,Navarra,131,1,Iza/Itza
+31,Navarra,132,6,Izagaondoa
+31,Navarra,133,2,Izalzu/Itzaltzu
+31,Navarra,134,7,Jaurrieta
+31,Navarra,135,0,Javier
+31,Navarra,136,3,Juslapeña
+31,Navarra,138,5,Lakuntza
+31,Navarra,139,8,Lana
+31,Navarra,140,2,Lantz
+31,Navarra,141,9,Lapoblación
+31,Navarra,142,4,Larraga
+31,Navarra,143,0,Larraona
+31,Navarra,144,5,Larraun
+31,Navarra,145,8,Lazagurría
+31,Navarra,146,1,Leache
+31,Navarra,147,7,Legarda
+31,Navarra,148,3,Legaria
+31,Navarra,149,6,Leitza
+31,Navarra,908,3,Lekunberri
+31,Navarra,150,9,Leoz/Leotz
+31,Navarra,151,6,Lerga
+31,Navarra,152,1,Lerín
+31,Navarra,153,7,Lesaka
+31,Navarra,154,2,Lezáun
+31,Navarra,155,5,Liédena
+31,Navarra,156,8,Lizoáin-Arriasgoiti
+31,Navarra,157,4,Lodosa
+31,Navarra,158,0,Lónguida/Longida
+31,Navarra,159,3,Lumbier
+31,Navarra,160,7,Luquin
+31,Navarra,248,2,Luzaide/Valcarlos
+31,Navarra,161,4,Mañeru
+31,Navarra,162,9,Marañón
+31,Navarra,163,5,Marcilla
+31,Navarra,164,0,Mélida
+31,Navarra,165,3,Mendavia
+31,Navarra,166,6,Mendaza
+31,Navarra,167,2,Mendigorría
+31,Navarra,168,8,Metauten
+31,Navarra,169,1,Milagro
+31,Navarra,170,5,Mirafuentes
+31,Navarra,171,2,Miranda de Arga
+31,Navarra,172,7,Monreal
+31,Navarra,173,3,Monteagudo
+31,Navarra,174,8,Morentin
+31,Navarra,175,1,Mues
+31,Navarra,176,4,Murchante
+31,Navarra,177,0,Murieta
+31,Navarra,178,6,Murillo el Cuende
+31,Navarra,179,9,Murillo el Fruto
+31,Navarra,180,3,Muruzábal
+31,Navarra,181,0,Navascués
+31,Navarra,182,5,Nazar
+31,Navarra,088,5,Noáin (Valle de Elorz)/Noain (Elortzibar)
+31,Navarra,183,1,Obanos
+31,Navarra,185,9,Ochagavía/Otsagabia
+31,Navarra,184,6,Oco
+31,Navarra,186,2,Odieta
+31,Navarra,187,8,Oitz
+31,Navarra,188,4,Olaibar
+31,Navarra,189,7,Olazti/Olazagutía
+31,Navarra,190,1,Olejua
+31,Navarra,191,8,Olite/Erriberri
+31,Navarra,194,4,Ollo
+31,Navarra,192,3,Olóriz/Oloritz
+31,Navarra,195,7,Orbaitzeta
+31,Navarra,196,0,Orbara
+31,Navarra,197,6,Orísoain
+31,Navarra,906,1,Orkoien
+31,Navarra,198,2,Oronz/Orontze
+31,Navarra,199,5,Oroz-Betelu/Orotz-Betelu
+31,Navarra,211,4,Orreaga/Roncesvalles
+31,Navarra,200,9,Oteiza
+31,Navarra,201,6,Pamplona/Iruña
+31,Navarra,202,1,Peralta/Azkoien
+31,Navarra,203,7,Petilla de Aragón
+31,Navarra,204,2,Piedramillera
+31,Navarra,205,5,Pitillas
+31,Navarra,206,8,Puente la Reina/Gares
+31,Navarra,207,4,Pueyo
+31,Navarra,208,0,Ribaforada
+31,Navarra,209,3,Romanzado
+31,Navarra,210,7,Roncal/Erronkari
+31,Navarra,212,9,Sada
+31,Navarra,213,5,Saldías
+31,Navarra,214,0,Salinas de Oro/Jaitz
+31,Navarra,215,3,San Adrián
+31,Navarra,217,2,San Martín de Unx
+31,Navarra,216,6,Sangüesa/Zangoza
+31,Navarra,219,1,Sansol
+31,Navarra,220,5,Santacara
+31,Navarra,222,7,Sarriés/Sartze
+31,Navarra,223,3,Sartaguda
+31,Navarra,224,8,Sesma
+31,Navarra,225,1,Sorlada
+31,Navarra,226,4,Sunbilla
+31,Navarra,227,0,Tafalla
+31,Navarra,228,6,Tiebas-Muruarte de Reta
+31,Navarra,229,9,Tirapu
+31,Navarra,230,3,Torralba del Río
+31,Navarra,231,0,Torres del Río
+31,Navarra,232,5,Tudela
+31,Navarra,233,1,Tulebras
+31,Navarra,234,6,Ucar
+31,Navarra,123,4,Uharte-Arakil
+31,Navarra,235,9,Ujué
+31,Navarra,236,2,Ultzama
+31,Navarra,237,8,Unciti
+31,Navarra,238,4,Unzué
+31,Navarra,239,7,Urdazubi/Urdax
+31,Navarra,240,1,Urdiain
+31,Navarra,241,8,Urraul Alto
+31,Navarra,242,3,Urraul Bajo
+31,Navarra,244,4,Urrotz
+31,Navarra,243,9,Urroz-Villa
+31,Navarra,245,7,Urzainqui/Urzainki
+31,Navarra,246,0,Uterga
+31,Navarra,247,6,Uztárroz/Uztarroze
+31,Navarra,260,6,Valle de Yerri/Deierri
+31,Navarra,249,5,Valtierra
+31,Navarra,251,5,Viana
+31,Navarra,252,0,Vidángoz/Bidankoze
+31,Navarra,254,1,Villafranca
+31,Navarra,255,4,Villamayor de Monjardín
+31,Navarra,257,3,Villatuerta
+31,Navarra,258,9,Villava/Atarrabia
+31,Navarra,261,3,Yesa
+31,Navarra,262,8,Zabalza/Zabaltza
+31,Navarra,073,4,Ziordia
+31,Navarra,907,7,Zizur Mayor/Zizur Nagusia
+31,Navarra,263,4,Zubieta
+31,Navarra,264,9,Zugarramurdi
+31,Navarra,265,2,Zúñiga
 32,Ourense,001,3,Allariz
 32,Ourense,002,8,Amoeiro
 32,Ourense,003,4,"Arnoia, A"
