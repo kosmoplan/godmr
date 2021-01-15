@@ -1,12 +1,12 @@
 package ine
 
 // Downloaded from ine.es and tweaked to include
-// common mispellings I'm seeing all over the place. I
+// common misspellings I'm seeing all over the place. I
 // plan to get something more clever in place but for
 // now I'm happy to keep going like this.
 var Data = []byte (`
 CPRO,PRO,CMUN,DC,NOMBRE
-01,Álava,001,4,Vitoria
+01,Álava,000,0,Vitoria
 01,Álava,001,4,Alegría-Dulantzi
 01,Álava,002,9,Amurrio
 01,Álava,049,3,Añana
